@@ -1,0 +1,111 @@
+<div class="form-container">
+  <div class="form-card">
+    <h1>{{ isEditMode ? 'Event bearbeiten' : 'Neues Event erstellen' }}</h1>
+
+    <div *ngIf="errorMessage" class="error-message">
+      ❌ {{ errorMessage }}
+    </div>
+
+    <div *ngIf="successMessage" class="success-message">
+      ✅ {{ successMessage }}
+    </div>
+
+    <form (ngSubmit)="onSubmit()" class="event-form">
+      <div class="form-group">
+        <label for="title">Event-Titel *</label>
+        <input
+          type="text"
+          id="title"
+          [(ngModel)]="event.title"
+          name="title"
+          placeholder="z.B. Team Meeting"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="description">Beschreibung</label>
+        <textarea
+          id="description"
+          [(ngModel)]="event.description"
+          name="description"
+          placeholder="Optional: Füge Details hinzu..."
+          rows="4"
+        ></textarea>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="date">Datum *</label>
+          <input
+            type="date"
+            id="date"
+            [(ngModel)]="event.date"
+            name="date"
+            [min]="getTodayDate()"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="time">Uhrzeit</label>
+          <input
+            type="time"
+            id="time"
+            [(ngModel)]="event.time"
+            name="time"
+          />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="location">Ort</label>
+        <input
+          type="text"
+          id="location"
+          [(ngModel)]="event.location"
+          name="location"
+          placeholder="z.B. Konferenzraum A"
+        />
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="category">Kategorie</label>
+          <select
+            id="category"
+            [(ngModel)]="event.category"
+            name="category"
+          >
+            <option value="">Keine Kategorie</option>
+            <option *ngFor="let cat of categories" value="{{ cat }}">
+              {{ cat }}
+            </option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="color">Farbe</label>
+          <div class="color-picker">
+            <input
+              type="color"
+              id="color"
+              [(ngModel)]="event.color"
+              name="color"
+            />
+            <div class="color-preview" [ngStyle]="{ 'background-color': event.color }"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn-submit" [disabled]="isSubmitting">
+          {{ isSubmitting ? 'Wird gespeichert...' : (isEditMode ? 'Aktualisieren' : 'Erstellen') }}
+        </button>
+        <button type="button" class="btn-cancel" (click)="cancel()">
+          Abbrechen
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

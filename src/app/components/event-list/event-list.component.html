@@ -1,0 +1,51 @@
+<div class="event-list-container">
+  <div class="filters">
+    <input
+      type="text"
+      placeholder="Event suchen..."
+      class="search-input"
+      (input)="onSearchChange($event.target.value)"
+    />
+
+    <div class="category-filter">
+      <button
+        *ngFor="let category of allCategories"
+        [class.active]="selectedCategory === category"
+        (click)="onCategoryChange(category)"
+        class="category-btn"
+      >
+        {{ category === 'all' ? 'Alle Events' : category }}
+      </button>
+    </div>
+  </div>
+
+  <div class="events">
+    <div *ngIf="filteredEvents.length === 0" class="no-events">
+      <p>Keine Events gefunden. <a routerLink="/add">Erstelle eines!</a></p>
+    </div>
+
+    <div *ngFor="let event of filteredEvents" class="event-card" [ngStyle]="getColorStyle(event.color)">
+      <div class="event-header">
+        <h3>{{ event.title }}</h3>
+        <div class="event-actions">
+          <a [routerLink]="['/edit', event.id]" class="btn-edit">✏️</a>
+          <button (click)="deleteEvent(event.id)" class="btn-delete">🗑️</button>
+        </div>
+      </div>
+
+      <div class="event-meta">
+        <span class="date">📅 {{ formatDate(event.date) }}</span>
+        <span *ngIf="event.time" class="time">🕐 {{ event.time }}</span>
+      </div>
+
+      <p *ngIf="event.description" class="description">{{ event.description }}</p>
+
+      <div class="event-footer">
+        <span *ngIf="event.location" class="location">📍 {{ event.location }}</span>
+        <span *ngIf="event.category" class="category">🏷️ {{ event.category }}</span>
+      </div>
+    </div>
+  </div>
+
+  <a routerLink="/add" class="btn-add-event">+ Neues Event</a>
+</div>

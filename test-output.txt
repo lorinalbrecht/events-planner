@@ -1,0 +1,769 @@
+
+> event-planner@0.0.0 test
+> ng test
+
+[33mÔØ»[39m Building...
+[32mÔ£ö[39m Building...
+[1mInitial chunk files[22m       [2m | [22m[1mNames[22m                  [2m | [22m [1mRaw size[22m
+[32mchunk-N2RPH77H.js[39m         [2m | [22m[2m-[22m                      [2m | [22m  [36m2.27 MB[39m[2m | [22m
+[32mpolyfills.js[39m              [2m | [22m[2mpolyfills[22m              [2m | [22m  [36m1.04 MB[39m[2m | [22m
+[32mchunk-BQ2H7SQY.js[39m         [2m | [22m[2m-[22m                      [2m | [22m[36m236.08 kB[39m[2m | [22m
+[32mspec-app.spec.js[39m          [2m | [22m[2mspec-app.spec[22m          [2m | [22m[36m210.18 kB[39m[2m | [22m
+[32mjasmine-cleanup-1.js[39m      [2m | [22m[2mjasmine-cleanup-1[22m      [2m | [22m [36m67.20 kB[39m[2m | [22m
+[32mtest_main.js[39m              [2m | [22m[2mtest_main[22m              [2m | [22m [36m21.83 kB[39m[2m | [22m
+[32mspec-event.service.spec.js[39m[2m | [22m[2mspec-event.service.spec[22m[2m | [22m [36m14.90 kB[39m[2m | [22m
+[32mchunk-TTULUY32.js[39m         [2m | [22m[2m-[22m                      [2m | [22m  [36m1.99 kB[39m[2m | [22m
+[32mjasmine-cleanup-0.js[39m      [2m | [22m[2mjasmine-cleanup-0[22m      [2m | [22m[36m519 bytes[39m[2m | [22m
+[32mstyles.css[39m                [2m | [22m[2mstyles[22m                 [2m | [22m [36m95 bytes[39m[2m | [22m
+
+[1m [22m                         [2m | [22m[1mInitial total[22m          [2m | [22m  [1m3.86 MB[22m
+
+Application bundle generation complete. [3.419 seconds] - 2026-02-04T11:00:06.555Z
+
+Watch mode enabled. Watching for file changes...
+[33m04 02 2026 12:00:06.868:WARN [karma]: [39mNo captured browser, open http://localhost:9877/
+[32m04 02 2026 12:00:06.935:INFO [karma-server]: [39mKarma v6.4.4 server started at http://localhost:9877/
+[32m04 02 2026 12:00:06.936:INFO [launcher]: [39mLaunching browsers Chrome with concurrency unlimited
+[32m04 02 2026 12:00:06.948:INFO [launcher]: [39mStarting browser Chrome
+[32m04 02 2026 12:00:08.704:INFO [Chrome 143.0.0.0 (Windows 10)]: [39mConnected on socket 5bTVmoXsk2vl2s0DAAAB with id 765359
+Chrome 143.0.0.0 (Windows 10): Executed 0 of 24[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 1 of 24[32m SUCCESS[39m (0 secs / 0.05 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 2 of 24[32m SUCCESS[39m (0 secs / 0.057 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 3 of 24[32m SUCCESS[39m (0 secs / 0.068 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 4 of 24[32m SUCCESS[39m (0 secs / 0.07 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 5 of 24[32m SUCCESS[39m (0 secs / 0.075 secs)
+[1A[2KERROR: [36m'Error deleting event:', Error: Delete failed
+Error: Delete failed
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:245:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)[39m
+Chrome 143.0.0.0 (Windows 10): Executed 5 of 24[32m SUCCESS[39m (0 secs / 0.075 secs)
+ERROR: 'Error deleting event:', Error: Delete failed
+Error: Delete failed
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:245:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 6 of 24[32m SUCCESS[39m (0 secs / 0.081 secs)
+[1A[2KERROR: [36m'Error updating event:', Error: Update failed
+Error: Update failed
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:207:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)[39m
+Chrome 143.0.0.0 (Windows 10): Executed 6 of 24[32m SUCCESS[39m (0 secs / 0.081 secs)
+ERROR: 'Error updating event:', Error: Update failed
+Error: Update failed
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:207:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 7 of 24[32m SUCCESS[39m (0 secs / 0.136 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 8 of 24[32m SUCCESS[39m (0 secs / 0.16 secs)
+[1A[2KERROR: [36m'Error adding event:', Error: Server error
+Error: Server error
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:156:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)[39m
+Chrome 143.0.0.0 (Windows 10): Executed 8 of 24[32m SUCCESS[39m (0 secs / 0.16 secs)
+ERROR: 'Error adding event:', Error: Server error
+Error: Server error
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:156:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 9 of 24[32m SUCCESS[39m (0 secs / 0.163 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 10 of 24[32m SUCCESS[39m (0 secs / 0.167 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 11 of 24[32m SUCCESS[39m (0 secs / 0.169 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 12 of 24[32m SUCCESS[39m (0 secs / 0.171 secs)
+[1A[2KERROR: [36m'Error loading event:', Error: Network error
+Error: Network error
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:97:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)[39m
+Chrome 143.0.0.0 (Windows 10): Executed 12 of 24[32m SUCCESS[39m (0 secs / 0.171 secs)
+ERROR: 'Error loading event:', Error: Network error
+Error: Network error
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:97:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 13 of 24[32m SUCCESS[39m (0 secs / 0.182 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 14 of 24[32m SUCCESS[39m (0 secs / 0.184 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 15 of 24[32m SUCCESS[39m (0 secs / 0.192 secs)
+[1A[2K[31mChrome 143.0.0.0 (Windows 10) EventService API Endpoints should call correct endpoint for getting events FAILED[39m
+	Expected spy fetch to have been called with:
+	  [ 'http://localhost:3000/api/events', Object({ method: 'GET' }) ]
+	but actual calls were:
+	  [ 'http://localhost:3000/api/events' ],
+	  [ 'http://localhost:3000/api/events' ].
+	
+	Call 0:
+	  Expected $.length = 1 to equal 2.
+	  Expected $[1] = undefined to equal Object({ method: 'GET' }).
+	Call 1:
+	  Expected $.length = 1 to equal 2.
+	  Expected $[1] = undefined to equal Object({ method: 'GET' }).
+	Error: Expected spy fetch to have been called with:
+	  [ 'http://localhost:3000/api/events', Object({ method: 'GET' }) ]
+	but actual calls were:
+	  [ 'http://localhost:3000/api/events' ],
+	  [ 'http://localhost:3000/api/events' ].
+	Call 0:
+	  Expected $.length = 1 to equal 2.
+	  Expected $[1] = undefined to equal Object({ method: 'GET' }).
+	Call 1:
+	  Expected $.length = 1 to equal 2.
+	  Expected $[1] = undefined to equal Object({ method: 'GET' }).
+	    at <Jasmine>
+	    at UserContext.<anonymous> (src/app/services/event.service.spec.ts:364:24)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:398:28)
+	    at _ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:397:34)
+Chrome 143.0.0.0 (Windows 10): Executed 16 of 24[31m (1 FAILED)[39m (0 secs / 0.198 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 17 of 24[31m (1 FAILED)[39m (0 secs / 0.205 secs)
+[1A[2K[31mChrome 143.0.0.0 (Windows 10) EventService API Endpoints should call correct endpoint for getting single event FAILED[39m
+	Expected spy fetch to have been called with:
+	  [ 'http://localhost:3000/api/events/1', Object({ method: 'GET' }) ]
+	but actual calls were:
+	  [ 'http://localhost:3000/api/events' ],
+	  [ 'http://localhost:3000/api/events/1' ].
+	
+	Call 0:
+	  Expected $.length = 1 to equal 2.
+	  Expected $[0] = 'http://localhost:3000/api/events' to equal 'http://localhost:3000/api/events/1'.
+	  Expected $[1] = undefined to equal Object({ method: 'GET' }).
+	Call 1:
+	  Expected $.length = 1 to equal 2.
+	  Expected $[1] = undefined to equal Object({ method: 'GET' }).
+	Error: Expected spy fetch to have been called with:
+	  [ 'http://localhost:3000/api/events/1', Object({ method: 'GET' }) ]
+	but actual calls were:
+	  [ 'http://localhost:3000/api/events' ],
+	  [ 'http://localhost:3000/api/events/1' ].
+	Call 0:
+	  Expected $.length = 1 to equal 2.
+	  Expected $[0] = 'http://localhost:3000/api/events' to equal 'http://localhost:3000/api/events/1'.
+	  Expected $[1] = undefined to equal Object({ method: 'GET' }).
+	Call 1:
+	  Expected $.length = 1 to equal 2.
+	  Expected $[1] = undefined to equal Object({ method: 'GET' }).
+	    at <Jasmine>
+	    at Object.next (src/app/services/event.service.spec.ts:381:28)
+	    at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+	    at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+	    at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+Chrome 143.0.0.0 (Windows 10): Executed 18 of 24[31m (2 FAILED)[39m (0 secs / 1.051 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 19 of 24[31m (2 FAILED)[39m (0 secs / 1.054 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 20 of 24[31m (2 FAILED)[39m (0 secs / 1.058 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 21 of 24[31m (2 FAILED)[39m (0 secs / 1.118 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 22 of 24[31m (2 FAILED)[39m (0 secs / 1.12 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 23 of 24[31m (2 FAILED)[39m (0 secs / 1.122 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 24 of 24[31m (2 FAILED)[39m (0 secs / 1.124 secs)
+[1A[2K[31mChrome 143.0.0.0 (Windows 10) ERROR[39m
+  An error was thrown in afterAll
+  Expected 0 to be 1.
+      at <Jasmine>
+      at Object.next (src/app/services/event.service.spec.ts:505:31)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+  Expected 0 to be 1.
+      at <Jasmine>
+      at Object.next (src/app/services/event.service.spec.ts:513:31)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+  Expected 0 to be 1.
+      at <Jasmine>
+      at Object.next (src/app/services/event.service.spec.ts:485:31)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+  TypeError: Cannot read properties of undefined (reading 'title')
+      at Object.next (src/app/services/event.service.spec.ts:486:26)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+      at node_modules/rxjs/dist/esm/internal/Subject.js:34:30
+      at errorContext (node_modules/rxjs/dist/esm/internal/util/errorContext.js:19:9)
+      at BehaviorSubject.next (node_modules/rxjs/dist/esm/internal/Subject.js:27:9)
+      at BehaviorSubject.next (node_modules/rxjs/dist/esm/internal/BehaviorSubject.js:24:15)
+      at src/app/services/event.service.ts:32:40
+      at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:398:28)
+Chrome 143.0.0.0 (Windows 10): Executed 24 of 24[31m (2 FAILED)[39m[31m ERROR[39m (0 secs / 1.124 secs)
+Chrome 143.0.0.0 (Windows 10) ERROR
+  An error was thrown in afterAll
+  Expected 0 to be 1.
+      at <Jasmine>
+      at Object.next (src/app/services/event.service.spec.ts:505:31)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+  Expected 0 to be 1.
+      at <Jasmine>
+      at Object.next (src/app/services/event.service.spec.ts:513:31)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+  Expected 0 to be 1.
+      at <Jasmine>
+      at Object.next (src/app/services/event.service.spec.ts:485:31)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+  TypeError: Cannot read properties of undefined (reading 'title')
+      at Object.next (src/app/services/event.service.spec.ts:486:26)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+      at node_modules/rxjs/dist/esm/internal/Subject.js:34:30
+      at errorContext (node_modules/rxjs/dist/esm/internal/util/errorContext.js:19:9)
+      at BehaviorSubject.next (node_modules/rxjs/dist/esm/internal/Subject.js:27:9)
+      at BehaviorSubject.next (node_modules/rxjs/dist/esm/internal/BehaviorSubject.js:24:15)
+      at src/app/services/event.service.ts:32:40
+      at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:398:28)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 24 of 24[31m (2 FAILED)[39m[31m ERROR[39m (1.293 secs / 1.124 secs)
+[1A[2K[31mChrome 143.0.0.0 (Windows 10) ERROR[39m
+  Some of your tests did a full page reload!
+Chrome 143.0.0.0 (Windows 10): Executed 24 of 24[31m (2 FAILED)[39m[31m ERROR[39m (1.293 secs / 1.124 secs)
+Chrome 143.0.0.0 (Windows 10) ERROR
+  Some of your tests did a full page reload!
+[33m04 02 2026 12:00:24.081:WARN [Chrome 143.0.0.0 (Windows 10)]: [39mDisconnected (0 times) Client disconnected from CONNECTED state (transport close)
+[1A[2K[31mChrome 143.0.0.0 (Windows 10) ERROR[39m
+  Disconnected Client disconnected from CONNECTED state (transport close)
+Chrome 143.0.0.0 (Windows 10): Executed 24 of 24[31m (2 FAILED)[39m[31m ERROR[39m (1.293 secs / 1.124 secs)
+Chrome 143.0.0.0 (Windows 10) ERROR
+  Disconnected Client disconnected from CONNECTED state (transport close)
+[91m04 02 2026 12:00:24.451:ERROR [launcher]: [39mChrome crashed.
+	[11812:12928:0204/120012.520:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: PHONE_REGISTRATION_ERROR
+[11812:12928:0204/120012.520:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: PHONE_REGISTRATION_ERROR
+[11812:12928:0204/120012.520:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: PHONE_REGISTRATION_ERROR
+Created TensorFlow Lite XNNPACK delegate for CPU.
+
+[91m04 02 2026 12:00:24.452:ERROR [launcher]: [39mChrome stdout: 
+[91m04 02 2026 12:00:24.452:ERROR [launcher]: [39mChrome stderr: [11812:12928:0204/120012.520:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: PHONE_REGISTRATION_ERROR
+[11812:12928:0204/120012.520:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: PHONE_REGISTRATION_ERROR
+[11812:12928:0204/120012.520:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: PHONE_REGISTRATION_ERROR
+Created TensorFlow Lite XNNPACK delegate for CPU.
+
+[32m04 02 2026 12:00:24.525:INFO [launcher]: [39mTrying to start Chrome again (1/2).
+[32m04 02 2026 12:00:25.998:INFO [Chrome 143.0.0.0 (Windows 10)]: [39mConnected on socket acvwE1eI3_nOOGdQAAAD with id 765359
+Chrome 143.0.0.0 (Windows 10): Executed 0 of 24[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 1 of 24[32m SUCCESS[39m (0 secs / 0.031 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 2 of 24[32m SUCCESS[39m (0 secs / 0.038 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 3 of 24[32m SUCCESS[39m (0 secs / 0.044 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 4 of 24[32m SUCCESS[39m (0 secs / 0.048 secs)
+[1A[2K[31mChrome 143.0.0.0 (Windows 10) ERROR[39m
+  An error was thrown in afterAll
+  Expected 0 to be 1.
+      at <Jasmine>
+      at Object.next (src/app/services/event.service.spec.ts:485:31)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+  TypeError: Cannot read properties of undefined (reading 'title')
+      at Object.next (src/app/services/event.service.spec.ts:486:26)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+      at node_modules/rxjs/dist/esm/internal/Subject.js:34:30
+      at errorContext (node_modules/rxjs/dist/esm/internal/util/errorContext.js:19:9)
+      at BehaviorSubject.next (node_modules/rxjs/dist/esm/internal/Subject.js:27:9)
+      at BehaviorSubject.next (node_modules/rxjs/dist/esm/internal/BehaviorSubject.js:24:15)
+      at src/app/services/event.service.ts:32:40
+      at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:398:28)
+  Expected 0 to be 1.
+      at <Jasmine>
+      at Object.next (src/app/services/event.service.spec.ts:505:31)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+  Expected 0 to be 1.
+      at <Jasmine>
+      at Object.next (src/app/services/event.service.spec.ts:513:31)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+Chrome 143.0.0.0 (Windows 10): Executed 4 of 24[31m ERROR[39m (0 secs / 0.048 secs)
+Chrome 143.0.0.0 (Windows 10) ERROR
+  An error was thrown in afterAll
+  Expected 0 to be 1.
+      at <Jasmine>
+      at Object.next (src/app/services/event.service.spec.ts:485:31)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+  TypeError: Cannot read properties of undefined (reading 'title')
+      at Object.next (src/app/services/event.service.spec.ts:486:26)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+      at node_modules/rxjs/dist/esm/internal/Subject.js:34:30
+      at errorContext (node_modules/rxjs/dist/esm/internal/util/errorContext.js:19:9)
+      at BehaviorSubject.next (node_modules/rxjs/dist/esm/internal/Subject.js:27:9)
+      at BehaviorSubject.next (node_modules/rxjs/dist/esm/internal/BehaviorSubject.js:24:15)
+      at src/app/services/event.service.ts:32:40
+      at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:398:28)
+  Expected 0 to be 1.
+      at <Jasmine>
+      at Object.next (src/app/services/event.service.spec.ts:505:31)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+  Expected 0 to be 1.
+      at <Jasmine>
+      at Object.next (src/app/services/event.service.spec.ts:513:31)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 4 of 24[31m ERROR[39m (0.603 secs / 0.048 secs)
+[1A[2KERROR: [36m'Error adding event:', Error: Server error
+Error: Server error
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:156:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)[39m
+Chrome 143.0.0.0 (Windows 10): Executed 4 of 24[31m ERROR[39m (0.603 secs / 0.048 secs)
+ERROR: 'Error adding event:', Error: Server error
+Error: Server error
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:156:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)
+[1A[2KERROR: [36m'Error updating event:', Error: Update failed
+Error: Update failed
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:207:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)[39m
+Chrome 143.0.0.0 (Windows 10): Executed 4 of 24[31m ERROR[39m (0.603 secs / 0.048 secs)
+ERROR: 'Error updating event:', Error: Update failed
+Error: Update failed
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:207:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)
+[1A[2KERROR: [36m'Error loading event:', Error: Network error
+Error: Network error
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:97:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)[39m
+Chrome 143.0.0.0 (Windows 10): Executed 4 of 24[31m ERROR[39m (0.603 secs / 0.048 secs)
+ERROR: 'Error loading event:', Error: Network error
+Error: Network error
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:97:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)
+[1A[2KERROR: [36m'Error deleting event:', Error: Delete failed
+Error: Delete failed
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:245:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)[39m
+Chrome 143.0.0.0 (Windows 10): Executed 4 of 24[31m ERROR[39m (0.603 secs / 0.048 secs)
+ERROR: 'Error deleting event:', Error: Delete failed
+Error: Delete failed
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:245:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)
+[1A[2K[31mChrome 143.0.0.0 (Windows 10) ERROR[39m
+  Some of your tests did a full page reload!
+Chrome 143.0.0.0 (Windows 10): Executed 4 of 24[31m ERROR[39m (0.603 secs / 0.048 secs)
+Chrome 143.0.0.0 (Windows 10) ERROR
+  Some of your tests did a full page reload!
+[33m04 02 2026 12:00:29.516:WARN [Chrome 143.0.0.0 (Windows 10)]: [39mDisconnected (0 times) Client disconnected from CONNECTED state (transport close)
+[1A[2K[31mChrome 143.0.0.0 (Windows 10) ERROR[39m
+  Disconnected Client disconnected from CONNECTED state (transport close)
+Chrome 143.0.0.0 (Windows 10): Executed 4 of 24[31m ERROR[39m (0.603 secs / 0.048 secs)
+Chrome 143.0.0.0 (Windows 10) ERROR
+  Disconnected Client disconnected from CONNECTED state (transport close)
+[91m04 02 2026 12:00:29.784:ERROR [launcher]: [39mChrome crashed.
+	
+[91m04 02 2026 12:00:29.785:ERROR [launcher]: [39mChrome stdout: 
+[91m04 02 2026 12:00:29.785:ERROR [launcher]: [39mChrome stderr: 
+[32m04 02 2026 12:00:29.848:INFO [launcher]: [39mTrying to start Chrome again (2/2).
+[32m04 02 2026 12:00:30.985:INFO [Chrome 143.0.0.0 (Windows 10)]: [39mConnected on socket o7aP-EII3RvLvuioAAAF with id 765359
+Chrome 143.0.0.0 (Windows 10): Executed 0 of 24[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 1 of 24[32m SUCCESS[39m (0 secs / 0.016 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 2 of 24[32m SUCCESS[39m (0 secs / 0.073 secs)
+[1A[2K[31mChrome 143.0.0.0 (Windows 10) EventService API Endpoints should call correct endpoint for getting single event FAILED[39m
+	Expected spy fetch to have been called with:
+	  [ 'http://localhost:3000/api/events/1', Object({ method: 'GET' }) ]
+	but actual calls were:
+	  [ 'http://localhost:3000/api/events' ],
+	  [ 'http://localhost:3000/api/events/1' ].
+	
+	Call 0:
+	  Expected $.length = 1 to equal 2.
+	  Expected $[0] = 'http://localhost:3000/api/events' to equal 'http://localhost:3000/api/events/1'.
+	  Expected $[1] = undefined to equal Object({ method: 'GET' }).
+	Call 1:
+	  Expected $.length = 1 to equal 2.
+	  Expected $[1] = undefined to equal Object({ method: 'GET' }).
+	Error: Expected spy fetch to have been called with:
+	  [ 'http://localhost:3000/api/events/1', Object({ method: 'GET' }) ]
+	but actual calls were:
+	  [ 'http://localhost:3000/api/events' ],
+	  [ 'http://localhost:3000/api/events/1' ].
+	Call 0:
+	  Expected $.length = 1 to equal 2.
+	  Expected $[0] = 'http://localhost:3000/api/events' to equal 'http://localhost:3000/api/events/1'.
+	  Expected $[1] = undefined to equal Object({ method: 'GET' }).
+	Call 1:
+	  Expected $.length = 1 to equal 2.
+	  Expected $[1] = undefined to equal Object({ method: 'GET' }).
+	    at <Jasmine>
+	    at Object.next (src/app/services/event.service.spec.ts:381:28)
+	    at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+	    at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+	    at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+Chrome 143.0.0.0 (Windows 10): Executed 3 of 24[31m (1 FAILED)[39m (0 secs / 0.696 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 4 of 24[31m (1 FAILED)[39m (0 secs / 0.7 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 5 of 24[31m (1 FAILED)[39m (0 secs / 0.702 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 6 of 24[31m (1 FAILED)[39m (0 secs / 0.705 secs)
+[1A[2K[31mChrome 143.0.0.0 (Windows 10) EventService API Endpoints should call correct endpoint for getting events FAILED[39m
+	Expected spy fetch to have been called with:
+	  [ 'http://localhost:3000/api/events', Object({ method: 'GET' }) ]
+	but actual calls were:
+	  [ 'http://localhost:3000/api/events' ],
+	  [ 'http://localhost:3000/api/events' ].
+	
+	Call 0:
+	  Expected $.length = 1 to equal 2.
+	  Expected $[1] = undefined to equal Object({ method: 'GET' }).
+	Call 1:
+	  Expected $.length = 1 to equal 2.
+	  Expected $[1] = undefined to equal Object({ method: 'GET' }).
+	Error: Expected spy fetch to have been called with:
+	  [ 'http://localhost:3000/api/events', Object({ method: 'GET' }) ]
+	but actual calls were:
+	  [ 'http://localhost:3000/api/events' ],
+	  [ 'http://localhost:3000/api/events' ].
+	Call 0:
+	  Expected $.length = 1 to equal 2.
+	  Expected $[1] = undefined to equal Object({ method: 'GET' }).
+	Call 1:
+	  Expected $.length = 1 to equal 2.
+	  Expected $[1] = undefined to equal Object({ method: 'GET' }).
+	    at <Jasmine>
+	    at UserContext.<anonymous> (src/app/services/event.service.spec.ts:364:24)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:398:28)
+	    at _ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:397:34)
+Chrome 143.0.0.0 (Windows 10): Executed 7 of 24[31m (2 FAILED)[39m (0 secs / 0.708 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 8 of 24[31m (2 FAILED)[39m (0 secs / 0.711 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 9 of 24[31m (2 FAILED)[39m (0 secs / 0.713 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 10 of 24[31m (2 FAILED)[39m (0 secs / 0.716 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 11 of 24[31m (2 FAILED)[39m (0 secs / 0.718 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 12 of 24[31m (2 FAILED)[39m (0 secs / 0.723 secs)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 13 of 24[31m (2 FAILED)[39m (0 secs / 0.725 secs)
+[1A[2K[31mChrome 143.0.0.0 (Windows 10) ERROR[39m
+  An error was thrown in afterAll
+  Expected 0 to be 1.
+      at <Jasmine>
+      at Object.next (src/app/services/event.service.spec.ts:505:31)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+  Expected 0 to be 1.
+      at <Jasmine>
+      at Object.next (src/app/services/event.service.spec.ts:513:31)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+  Expected 0 to be 1.
+      at <Jasmine>
+      at Object.next (src/app/services/event.service.spec.ts:485:31)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+  TypeError: Cannot read properties of undefined (reading 'title')
+      at Object.next (src/app/services/event.service.spec.ts:486:26)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+      at node_modules/rxjs/dist/esm/internal/Subject.js:34:30
+      at errorContext (node_modules/rxjs/dist/esm/internal/util/errorContext.js:19:9)
+      at BehaviorSubject.next (node_modules/rxjs/dist/esm/internal/Subject.js:27:9)
+      at BehaviorSubject.next (node_modules/rxjs/dist/esm/internal/BehaviorSubject.js:24:15)
+      at src/app/services/event.service.ts:32:40
+      at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:398:28)
+Chrome 143.0.0.0 (Windows 10): Executed 13 of 24[31m (2 FAILED)[39m[31m ERROR[39m (0 secs / 0.725 secs)
+Chrome 143.0.0.0 (Windows 10) ERROR
+  An error was thrown in afterAll
+  Expected 0 to be 1.
+      at <Jasmine>
+      at Object.next (src/app/services/event.service.spec.ts:505:31)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+  Expected 0 to be 1.
+      at <Jasmine>
+      at Object.next (src/app/services/event.service.spec.ts:513:31)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+  Expected 0 to be 1.
+      at <Jasmine>
+      at Object.next (src/app/services/event.service.spec.ts:485:31)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+  TypeError: Cannot read properties of undefined (reading 'title')
+      at Object.next (src/app/services/event.service.spec.ts:486:26)
+      at ConsumerObserver.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:91:33)
+      at SafeSubscriber._next (node_modules/rxjs/dist/esm/internal/Subscriber.js:60:26)
+      at SafeSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:18)
+      at node_modules/rxjs/dist/esm/internal/Subject.js:34:30
+      at errorContext (node_modules/rxjs/dist/esm/internal/util/errorContext.js:19:9)
+      at BehaviorSubject.next (node_modules/rxjs/dist/esm/internal/Subject.js:27:9)
+      at BehaviorSubject.next (node_modules/rxjs/dist/esm/internal/BehaviorSubject.js:24:15)
+      at src/app/services/event.service.ts:32:40
+      at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:398:28)
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 13 of 24[31m (2 FAILED)[39m[31m ERROR[39m (0.759 secs / 0.725 secs)
+[1A[2KERROR: [36m'Error adding event:', Error: Server error
+Error: Server error
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:156:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)[39m
+Chrome 143.0.0.0 (Windows 10): Executed 13 of 24[31m (2 FAILED)[39m[31m ERROR[39m (0.759 secs / 0.725 secs)
+ERROR: 'Error adding event:', Error: Server error
+Error: Server error
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:156:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)
+[1A[2KERROR: [36m'Error loading event:', Error: Network error
+Error: Network error
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:97:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)[39m
+Chrome 143.0.0.0 (Windows 10): Executed 13 of 24[31m (2 FAILED)[39m[31m ERROR[39m (0.759 secs / 0.725 secs)
+ERROR: 'Error loading event:', Error: Network error
+Error: Network error
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:97:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)
+[1A[2KERROR: [36m'Error deleting event:', Error: Delete failed
+Error: Delete failed
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:245:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)[39m
+Chrome 143.0.0.0 (Windows 10): Executed 13 of 24[31m (2 FAILED)[39m[31m ERROR[39m (0.759 secs / 0.725 secs)
+ERROR: 'Error deleting event:', Error: Delete failed
+Error: Delete failed
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:245:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)
+[1A[2KERROR: [36m'Error updating event:', Error: Update failed
+Error: Update failed
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:207:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)[39m
+Chrome 143.0.0.0 (Windows 10): Executed 13 of 24[31m (2 FAILED)[39m[31m ERROR[39m (0.759 secs / 0.725 secs)
+ERROR: 'Error updating event:', Error: Update failed
+Error: Update failed
+    at UserContext.<anonymous> (http://localhost:9877/base/src/app/services/event.service.spec.ts:207:47)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:398:28)
+    at _ProxyZoneSpec.onInvoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:397:34)
+    at ZoneImpl.run (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone.js:113:43)
+    at runInTestZone (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:213:38)
+    at UserContext.<anonymous> (http://localhost:9877/base/node_modules/zone.js/fesm2015/zone-testing.js:231:32)
+    at ZoneQueueRunner.attempt (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7643:40)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7670:27)
+    at runNext (http://localhost:9877/absoluteC:/DEV/events-planner/node_modules/karma-jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?86d98e11f43f2c8cfac9fb4806ed6c0aced74cbe:7574:16)
+[1A[2K[31mChrome 143.0.0.0 (Windows 10) ERROR[39m
+  Some of your tests did a full page reload!
+Chrome 143.0.0.0 (Windows 10): Executed 13 of 24[31m (2 FAILED)[39m[31m ERROR[39m (0.759 secs / 0.725 secs)
+Chrome 143.0.0.0 (Windows 10) ERROR
+  Some of your tests did a full page reload!
+[33m04 02 2026 12:00:38.963:WARN [Chrome 143.0.0.0 (Windows 10)]: [39mDisconnected (0 times) Client disconnected from CONNECTED state (transport close)
+[1A[2K[31mChrome 143.0.0.0 (Windows 10) ERROR[39m
+  Disconnected Client disconnected from CONNECTED state (transport close)
+Chrome 143.0.0.0 (Windows 10): Executed 13 of 24[31m (2 FAILED)[39m[31m ERROR[39m (0.759 secs / 0.725 secs)
+Chrome 143.0.0.0 (Windows 10) ERROR
+  Disconnected Client disconnected from CONNECTED state (transport close)
+[91m04 02 2026 12:00:39.213:ERROR [launcher]: [39mChrome crashed.
+	[23312:15668:0204/120035.927:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: PHONE_REGISTRATION_ERROR
+[23312:15668:0204/120035.927:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: PHONE_REGISTRATION_ERROR
+[23312:15668:0204/120035.939:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: PHONE_REGISTRATION_ERROR
+
+[91m04 02 2026 12:00:39.213:ERROR [launcher]: [39mChrome stdout: 
+[91m04 02 2026 12:00:39.214:ERROR [launcher]: [39mChrome stderr: [23312:15668:0204/120035.927:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: PHONE_REGISTRATION_ERROR
+[23312:15668:0204/120035.927:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: PHONE_REGISTRATION_ERROR
+[23312:15668:0204/120035.939:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: PHONE_REGISTRATION_ERROR
+
+[91m04 02 2026 12:00:39.270:ERROR [launcher]: [39mChrome failed 2 times (crashed). Giving up.
+[33m04 02 2026 12:00:53.991:WARN [Chrome 143.0.0.0 (Windows 10)]: [39mDisconnected (1 times) , because no message in 30000 ms.
+[1A[2K[31mChrome 143.0.0.0 (Windows 10) ERROR[39m
+  Disconnected , because no message in 30000 ms.
+Chrome 143.0.0.0 (Windows 10): Executed 13 of 24[31m (2 FAILED)[39m[31m ERROR[39m (0.759 secs / 0.725 secs)
+Chrome 143.0.0.0 (Windows 10) ERROR
+  Disconnected , because no message in 30000 ms.
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 13 of 24[31m (2 FAILED)[39m[31m ERROR[39m (0.759 secs / 0.725 secs)
+[33m04 02 2026 12:00:59.425:WARN [Chrome 143.0.0.0 (Windows 10)]: [39mDisconnected (1 times) , because no message in 30000 ms.
+[1A[2K[31mChrome 143.0.0.0 (Windows 10) ERROR[39m
+  Disconnected , because no message in 30000 ms.
+Chrome 143.0.0.0 (Windows 10): Executed 13 of 24[31m (2 FAILED)[39m[31m ERROR[39m (0.759 secs / 0.725 secs)
+Chrome 143.0.0.0 (Windows 10) ERROR
+  Disconnected , because no message in 30000 ms.
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 13 of 24[31m (2 FAILED)[39m[31m ERROR[39m (0.759 secs / 0.725 secs)
+[33m04 02 2026 12:01:08.880:WARN [Chrome 143.0.0.0 (Windows 10)]: [39mDisconnected (1 times) , because no message in 30000 ms.
+[1A[2K[31mChrome 143.0.0.0 (Windows 10) ERROR[39m
+  Disconnected , because no message in 30000 ms.
+Chrome 143.0.0.0 (Windows 10): Executed 13 of 24[31m (2 FAILED)[39m[31m DISCONNECTED[39m (37 secs / 0.725 secs)
+Chrome 143.0.0.0 (Windows 10) ERROR
+  Disconnected , because no message in 30000 ms.
+[1A[2KChrome 143.0.0.0 (Windows 10): Executed 13 of 24[31m (2 FAILED)[39m[31m DISCONNECTED[39m (37 secs / 0.725 secs)
